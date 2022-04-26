@@ -1,0 +1,26 @@
+{
+  "name": "fscli",
+  "version": "1.0.0",
+  "description": "\"# fs-cli\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "fscli",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crmontiel/fscli.git"
+  },
+  "keywords": [
+    "cli",
+    "javascript"
+  ],
+  "author": "Carlos R Montiel, <crmontiel043@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0"
+  },
+  "bin": "./index.js"
+}
